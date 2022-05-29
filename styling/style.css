@@ -112,6 +112,7 @@ h1, p {
     position: absolute;
     animation: myfirst 5s 1;
     animation-direction: reverse;
+    animation-iteration-count: infinite;
   }
   @keyframes myfirst {
     0%   {background: #DBDFFD; left: 40px; top: 24px;}
@@ -156,6 +157,7 @@ h1, p {
     position: absolute;
     animation: myfirst 5s 1;
     animation-direction: reverse;
+    animation-iteration-count: infinite;
   }
   @keyframes myfirst {
     0%   {background: #DBDFFD; left: 5px; top: 60px;}
