@@ -70,6 +70,7 @@ h1, p {
   position: relative;
   animation: myfirst 5s 1;
   animation-direction: reverse;
+  animation-iteration-count: infinite;
 }
 
 @keyframes myfirst {
