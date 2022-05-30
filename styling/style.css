@@ -202,6 +202,33 @@ h1, p {
     margin-bottom: 10px;
   }
 
+  #firework1 {
+    left: 50%;
+    top: 46%;
+    transform: scale(.8);
+  }
+  #firework1 .explosion {
+    animation: explosion 3s ease-in-out infinite;
+  }
+  
+  #firework2 {
+    left: 27%;
+    top: 50%;
+    transform: scale(.5);
+  }
+  #firework2 .explosion {
+    animation: explosion 2s .8s ease-in-out infinite;
+  }
+  
+  #firework3 {
+    left: 73%;
+    top: 50%;
+    transform: scale(.5);
+  }
+  #firework3 .explosion {
+    animation: explosion 2s .4s ease-in-out infinite;
+  }
+
   .animate-box {
     width: 20px;
     height: 20px;
@@ -247,8 +274,26 @@ h1, p {
     margin-bottom: 0px;
   }
 
-  .firework {
+  #firework1 {
     display: none;
+  }
+  
+  #firework2 {
+    left: 27%;
+    top: 60%;
+    transform: scale(.5);
+  }
+  #firework2 .explosion {
+    animation: explosion 2s .8s ease-in-out infinite;
+  }
+  
+  #firework3 {
+    left: 73%;
+    top: 55%;
+    transform: scale(.5);
+  }
+  #firework3 .explosion {
+    animation: explosion 2s .4s ease-in-out infinite;
   }
 
   .animate-box {
