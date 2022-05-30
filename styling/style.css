@@ -90,7 +90,7 @@ h1, p {
   }
 
   h1 {
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   p {
@@ -134,7 +134,7 @@ h1, p {
   }
 
   .center-image img {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -147,7 +147,7 @@ h1, p {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: opx;
+    margin-bottom: 0px;
   }
 
   .animate-box {
